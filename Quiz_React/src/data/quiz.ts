@@ -1,25 +1,29 @@
 const quizData: any[] = [
-    {
-        question: "Question 1",
-        options: ["select 1", "select 2", "select3", "select4"],
-        answerIndex: 0
-    },{
-        question: "Question 2",
-        options: ["select 1", "select 2", "select3", "select4"],
-        answerIndex: 2
-    },{
-        question: "Question 3",
-        options: ["select 1", "select 2", "select3", "select4"],
-        answerIndex: 1
-    },{
-        question: "Question 4",
-        options: ["select 1", "select 2", "select3", "select4"],
-        answerIndex: 3
-    },{
-        question: "Question 5",
-        options: ["select 1", "select 2", "select3", "select4"],
-        answerIndex: 1
-    },
+  {
+    question: "What is the capital city of Australia?",
+    options: ["Sydney", "Melbourne",  "Brisbane", "Canberra"],
+    answerIndex: 3, // Canberra
+  },
+  {
+    question: "Which planet is known as the Red Planet?",
+    options: ["Venus", "Mars", "Jupiter", "Mercury"],
+    answerIndex: 1, // Mars
+  },
+  {
+    question: "How many continents are there on Earth?",
+    options: ["5", "6", "7", "8"],
+    answerIndex: 2, // 7
+  },
+  {
+    question: "Which animal is the largest mammal in the world?",
+    options: ["Blue Whale", "African Elephant", "Giraffe", "Polar Bear"],
+    answerIndex: 0, // Blue Whale
+  },
+  {
+    question: "What is the smallest prime number?",
+    options: ["0", "1", "2", "3"],
+    answerIndex: 2, // 2
+  },
 ]
 
 export default quizData
