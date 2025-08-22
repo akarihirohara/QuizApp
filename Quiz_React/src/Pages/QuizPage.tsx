@@ -5,11 +5,11 @@ import Display from "../components/Display/Display";
 import quizData from "../data/quiz";
 import { useNavigate } from "react-router-dom";
 
-export default function QuizPage():any {
+export default function QuizPage() {
   const [quizIndex, setQuizIndex] = useState<number>(0);
   const [answerLogs, setAnswerLogs] = useState<boolean[]>([]);
-  const navigation: any = useNavigate();
-  const MAX_QUIZ_LEN: number = quizData.length;
+  const navigation = useNavigate();
+  const MAX_QUIZ_LEN = quizData.length;
 
   const handleClick = (clickedIndex: number) => {
     if(clickedIndex === quizData[quizIndex].answerIndex) {

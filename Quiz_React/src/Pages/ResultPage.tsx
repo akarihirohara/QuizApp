@@ -4,7 +4,7 @@ import Result from "../components/Result/Result";
 import Loading from "../components/Loading/Loading";
 import { useEffect, useState } from "react";
 
-export default function ResultPage():any {
+export default function ResultPage() {
   const [active, setActive] = useState<boolean>(false);
   const location = useLocation();
   const maxQuizLen = location.state.maxQuizLen
